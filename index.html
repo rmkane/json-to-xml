@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON to XML</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>JSON to XML</h1>
+    <form class="col" onsubmit="convert(event)">
+      <div class="row">
+        <textarea id="input-json" name="json" rows="16" cols="60"></textarea>
+        <textarea id="output-xml" name="xml" rows="16" cols="60"></textarea>
+      </div>
+      <button type="submit">Convert</button>
+    </form>
+  </body>
+</html>
